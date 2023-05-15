@@ -1,0 +1,71 @@
+body {
+    background-size: cover;
+    background-position: center;
+}
+
+.heading {
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#start {
+    font-size: 20px;
+    font-family: 'Darumadrop One', cursive;
+    margin: 1px;
+}
+
+#status {
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    margin: 1px;
+}
+
+#number_of_objects {
+    font-size: 20px;
+    font-family: 'Mogra', cursive;
+    margin: 1px;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: black;
+    bottom: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    line-height: 3;
+    text-align: center;
+}
+
+canvas {
+    border: 10px solid blue;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 20px lightblue;
+    background-color: wheat;
+    animation-name: example2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example2 {
+    0% {
+        box-shadow: 1px 1px 10px 5px red;
+    }
+
+    50% {
+        box-shadow: 1px 1px 10px 20px yellow;
+    }
+
+    100% {
+        box-shadow: 1px 1px 10px 5px red;
+    }
+}
+
+#object {
+    width: 35%;
+    font-size: 20px;
+    border-radius: 100px;
+    text-align: center;
+
+}
