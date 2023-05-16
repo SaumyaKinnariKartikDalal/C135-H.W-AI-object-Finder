@@ -24,21 +24,25 @@ body {
 
 #number_of_objects {
     font-size: 20px;
-    font-family: 'Mogra', cursive;
+    font-family: 'Lobster', cursive;
     margin: 1px;
 }
 
 .copy_right_footer {
+    font-weight: bolder;
+    font-size: 15px;
+    font-style: italic;
     position: fixed;
-    color: black;
+    color: pink;
     bottom: 0;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: purple;
     line-height: 3;
     text-align: center;
 }
 
 canvas {
+    margin-top: 140px;
     border: 10px solid blue;
     border-radius: 10px;
     box-shadow: 1px 1px 10px 20px lightblue;
@@ -67,5 +71,7 @@ canvas {
     font-size: 20px;
     border-radius: 100px;
     text-align: center;
-
+    background-color: cyan;
+    color: indigo;
+    font-family: 'Mogra', cursive;
 }
